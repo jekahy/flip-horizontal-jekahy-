@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'flip horizontal' target in the 'flip horizontal' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F299978814F0249700056509 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F299978714F0249700056509 /* Cocoa.framework */; };
+		F299979214F0249700056509 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F299979014F0249700056509 /* InfoPlist.strings */; };
+		F299979414F0249700056509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F299979314F0249700056509 /* main.m */; };
+		F299979814F0249700056509 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F299979614F0249700056509 /* Credits.rtf */; };
+		F299979B14F0249700056509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F299979A14F0249700056509 /* AppDelegate.m */; };
+		F299979E14F0249800056509 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F299979C14F0249800056509 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F299978314F0249700056509 /* flip horizontal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flip horizontal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F299978714F0249700056509 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F299978A14F0249700056509 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F299978B14F0249700056509 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F299978C14F0249700056509 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F299978F14F0249700056509 /* flip horizontal-Info.plist */ = {isa = PBXFileReference; path = "flip horizontal-Info.plist"; sourceTree = "<group>"; };
+		F299979114F0249700056509 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F299979314F0249700056509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F299979514F0249700056509 /* flip horizontal-Prefix.pch */ = {isa = PBXFileReference; path = "flip horizontal-Prefix.pch"; sourceTree = "<group>"; };
+		F299979714F0249700056509 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F299979914F0249700056509 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F299979A14F0249700056509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F299979D14F0249800056509 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F299978014F0249700056509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F299978814F0249700056509 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F299977814F0249700056509 = {
+			isa = PBXGroup;
+			children = (
+				F299978D14F0249700056509 /* flip horizontal */,
+				F299978614F0249700056509 /* Frameworks */,
+				F299978414F0249700056509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F299978414F0249700056509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F299978314F0249700056509 /* flip horizontal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F299978614F0249700056509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F299978714F0249700056509 /* Cocoa.framework */,
+				F299978914F0249700056509 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F299978914F0249700056509 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F299978A14F0249700056509 /* AppKit.framework */,
+				F299978B14F0249700056509 /* CoreData.framework */,
+				F299978C14F0249700056509 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F299978D14F0249700056509 /* flip horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				F299979914F0249700056509 /* AppDelegate.h */,
+				F299979A14F0249700056509 /* AppDelegate.m */,
+				F299979C14F0249800056509 /* MainMenu.xib */,
+				F299978E14F0249700056509 /* Supporting Files */,
+			);
+			path = "flip horizontal";
+			sourceTree = "<group>";
+		};
+		F299978E14F0249700056509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F299978F14F0249700056509 /* flip horizontal-Info.plist */,
+				F299979014F0249700056509 /* InfoPlist.strings */,
+				F299979314F0249700056509 /* main.m */,
+				F299979514F0249700056509 /* flip horizontal-Prefix.pch */,
+				F299979614F0249700056509 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F299978214F0249700056509 /* flip horizontal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29997A114F0249800056509 /* Build configuration list for PBXNativeTarget "flip horizontal" */;
+			buildPhases = (
+				F299977F14F0249700056509 /* Sources */,
+				F299978014F0249700056509 /* Frameworks */,
+				F299978114F0249700056509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flip horizontal";
+			productName = "flip horizontal";
+			productReference = F299978314F0249700056509 /* flip horizontal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F299977A14F0249700056509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F299977D14F0249700056509 /* Build configuration list for PBXProject "flip horizontal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F299977814F0249700056509;
+			productRefGroup = F299978414F0249700056509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F299978214F0249700056509 /* flip horizontal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F299978114F0249700056509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F299979214F0249700056509 /* InfoPlist.strings in Resources */,
+				F299979814F0249700056509 /* Credits.rtf in Resources */,
+				F299979E14F0249800056509 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F299977F14F0249700056509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F299979414F0249700056509 /* main.m in Sources */,
+				F299979B14F0249700056509 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F299979014F0249700056509 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F299979114F0249700056509 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F299979614F0249700056509 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F299979714F0249700056509 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F299979C14F0249800056509 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F299979D14F0249800056509 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F299979F14F0249800056509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F29997A014F0249800056509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F29997A214F0249800056509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flip horizontal/flip horizontal-Prefix.pch";
+				INFOPLIST_FILE = "flip horizontal/flip horizontal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F29997A314F0249800056509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flip horizontal/flip horizontal-Prefix.pch";
+				INFOPLIST_FILE = "flip horizontal/flip horizontal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F299977D14F0249700056509 /* Build configuration list for PBXProject "flip horizontal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F299979F14F0249800056509 /* Debug */,
+				F29997A014F0249800056509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29997A114F0249800056509 /* Build configuration list for PBXNativeTarget "flip horizontal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29997A214F0249800056509 /* Debug */,
+				F29997A314F0249800056509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F299977A14F0249700056509 /* Project object */;
+}
