@@ -8,8 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+   
+    IBOutlet NSImageView *view;
+
+
+}
 
 @property (assign) IBOutlet NSWindow *window;
+-(IBAction)flip:(id)sender;
 
 @end
